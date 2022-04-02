@@ -1,6 +1,4 @@
-import Link from 'next/link'
-import SiteLayout from '../../components/SiteLayout'
-import { getLayout } from '../../components/AccountSettingsLayout'
+import { getLayout } from "../../components/AccountSettingsLayout";
 
 const AccountSettingsSecurity = () => (
   <div>
@@ -49,8 +47,8 @@ const AccountSettingsSecurity = () => (
       </button>
     </div>
   </div>
-)
+);
 
-AccountSettingsSecurity.getLayout = getLayout
+AccountSettingsSecurity.getLayout = getLayout;
 
-export default AccountSettingsSecurity
+export default AccountSettingsSecurity;

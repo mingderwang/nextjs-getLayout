@@ -1,6 +1,4 @@
-import Link from 'next/link'
-import SiteLayout from '../../components/SiteLayout'
-import { getLayout } from '../../components/AccountSettingsLayout'
+import { getLayout } from "../../components/AccountSettingsLayout";
 
 const AccountSettingsProfile = () => (
   <div>
@@ -40,8 +38,8 @@ const AccountSettingsProfile = () => (
       </button>
     </div>
   </div>
-)
+);
 
-AccountSettingsProfile.getLayout = getLayout
+AccountSettingsProfile.getLayout = getLayout;
 
-export default AccountSettingsProfile
+export default AccountSettingsProfile;

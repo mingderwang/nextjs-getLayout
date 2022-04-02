@@ -1,6 +1,4 @@
-import Link from 'next/link'
-import SiteLayout from '../../components/SiteLayout'
-import { getLayout } from '../../components/AccountSettingsLayout'
+import { getLayout } from "../../components/AccountSettingsLayout";
 
 const AccountSettingsNotifications = () => (
   <div>
@@ -40,8 +38,8 @@ const AccountSettingsNotifications = () => (
       </button>
     </div>
   </div>
-)
+);
 
-AccountSettingsNotifications.getLayout = getLayout
+AccountSettingsNotifications.getLayout = getLayout;
 
-export default AccountSettingsNotifications
+export default AccountSettingsNotifications;

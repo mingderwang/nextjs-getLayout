@@ -1,6 +1,4 @@
-import Link from 'next/link'
-import SiteLayout from '../../components/SiteLayout'
-import { getLayout } from '../../components/AccountSettingsLayout'
+import { getLayout } from "../../components/AccountSettingsLayout";
 
 const AccountSettingsTeamSettings = () => (
   <div>
@@ -38,8 +36,8 @@ const AccountSettingsTeamSettings = () => (
       </button>
     </div>
   </div>
-)
+);
 
-AccountSettingsTeamSettings.getLayout = getLayout
+AccountSettingsTeamSettings.getLayout = getLayout;
 
-export default AccountSettingsTeamSettings
+export default AccountSettingsTeamSettings;

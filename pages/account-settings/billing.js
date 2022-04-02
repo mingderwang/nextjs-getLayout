@@ -1,6 +1,4 @@
-import Link from 'next/link'
-import SiteLayout from '../../components/SiteLayout'
-import { getLayout } from '../../components/AccountSettingsLayout'
+import { getLayout } from "../../components/AccountSettingsLayout";
 
 const AccountSettingsBilling = () => (
   <div>
@@ -49,8 +47,8 @@ const AccountSettingsBilling = () => (
       </button>
     </div>
   </div>
-)
+);
 
-AccountSettingsBilling.getLayout = getLayout
+AccountSettingsBilling.getLayout = getLayout;
 
-export default AccountSettingsBilling
+export default AccountSettingsBilling;

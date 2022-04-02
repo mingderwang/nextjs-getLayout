@@ -5,15 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "start": "next start"
   },
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "autoprefixer": "^9.6.5",
-    "next": "9.1.1",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
-    "tailwindcss": "^1.1.2"
+    "@reach/dialog": "^0.16.2",
+    "@reach/visually-hidden": "^0.16.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "next": "^12.1.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
   }
 }

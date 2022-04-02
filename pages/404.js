@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { getLayout } from '../components/SiteLayout'
+import Link from "next/link";
+import { getLayout } from "../components/SiteLayout";
 
 const Index = () => (
   <div className="mt-8 max-w-xl mx-auto px-8">
@@ -7,9 +7,7 @@ const Index = () => (
       <span className="block text-xl text-gray-600 leading-tight">
         Welcome to this
       </span>
-      <span className="block text-5xl font-bold leading-none">
-        200 page
-      </span>
+      <span className="block text-5xl font-bold leading-none">404 page</span>
     </h1>
     <div className="mt-12 text-center">
       <Link href="/account-settings/basic-information">
@@ -19,8 +17,8 @@ const Index = () => (
       </Link>
     </div>
   </div>
-)
+);
 
-Index.getLayout = getLayout
+Index.getLayout = getLayout;
 
-export default Index
+export default Index;
