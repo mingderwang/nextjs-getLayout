@@ -21,7 +21,7 @@ const SiteLayout = ({ children }) => (
               <input
                 type="text"
                 placeholder="Search..."
-                class="input input-bordered input-warning w-full"
+                className="input input-bordered input-warning w-full"
               />
             </div>
           </nav>

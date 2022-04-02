@@ -16,7 +16,7 @@ const AccountSettingsBasicInformation = () => (
             <div className="mt-2">
               <input
                 type="email"
-                className="block w-full border border-gray-300 rounded-lg bg-gray-100 px-3 py-2 leading-tight focus:outline-none focus:border-gray-600 focus:bg-white"
+                className="input input-bordered input-warning w-full"
                 placeholder="johndoe@example.com"
               />
             </div>
@@ -27,7 +27,7 @@ const AccountSettingsBasicInformation = () => (
             </span>
             <div className="mt-2">
               <input
-                className="block w-full border border-gray-300 rounded-lg bg-gray-100 px-3 py-2 leading-tight focus:outline-none focus:border-gray-600 focus:bg-white"
+                className="input input-bordered input-warning w-full"
                 placeholder="Canada"
               />
             </div>
@@ -38,7 +38,7 @@ const AccountSettingsBasicInformation = () => (
             </span>
             <div className="mt-2">
               <input
-                className="block w-full border border-gray-300 rounded-lg bg-gray-100 px-3 py-2 leading-tight focus:outline-none focus:border-gray-600 focus:bg-white"
+                className="input input-bordered input-warning w-full"
                 placeholder="English"
               />
             </div>
