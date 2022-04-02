@@ -1,4 +1,5 @@
 import Link from "next/link";
+import clsx from "clsx";
 import { getLayout as getSiteLayout } from "./SiteLayout";
 import { useRouter } from "next/router";
 
@@ -7,11 +8,12 @@ const ActiveLink = ({ children, href, className }) => {
   return (
     <Link href={href} scroll={false}>
       <a
-        className={`${
+        className={clsx(
           router.pathname === href
             ? "text-gray-900 border-gray-800"
-            : "text-gray-600 hover:text-gray-700 border-transparent"
-        } ${className} block pb-4 font-semibold text-sm sm:text-base border-b-2 focus:outline-none focus:text-gray-900 whitespace-no-wrap`}
+            : "text-gray-600 hover:text-gray-700 border-transparent",
+          "block px-1 pb-4 font-semibold text-sm sm:text-base border-b-2 focus:outline-none focus:text-gray-900 whitespace-no-wrap"
+        )}
       >
         {children}
       </a>
@@ -58,7 +60,7 @@ const AccountSettingsLayout = ({ children }) => {
   );
 };
 
-export const getLayout = page =>
+export const getLayout = (page) =>
   getSiteLayout(<AccountSettingsLayout>{page}</AccountSettingsLayout>);
 
 export default AccountSettingsLayout;
